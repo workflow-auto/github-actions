@@ -1,0 +1,10 @@
+name: CI Workflow
+on: [push]
+job: 
+ hello:
+  runs-on: ubuntu-latest
+  steps:
+   - name: step-1
+     run: echo "hello Workflow"
+   - name: step-2
+     run: echo "hello everyone welcome to my party"
